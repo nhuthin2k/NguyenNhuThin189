@@ -13,4 +13,6 @@ using nguyennhuthin189.Models;
         }
 
         public DbSet<nguyennhuthin189.Models.Person> Person { get; set; }
+
+        public DbSet<nguyennhuthin189.Models.NNT0189> NNT0189 { get; set; }
     }

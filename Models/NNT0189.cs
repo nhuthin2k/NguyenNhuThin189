@@ -16,11 +16,12 @@ namespace nguyennhuthin189.Models
 
         [StringLength(50)]
         [DisplayName("Tên người dùng")]
-
+        [Require]
         public String NNTName { get; set; }
 
        
        [DisplayName("giới tính")]
-        public string NNTGender { get; set; }
+       [Require]
+        public string NNTGender { bool? = true/false/null }
         }
 }
